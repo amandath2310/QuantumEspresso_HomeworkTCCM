@@ -1,0 +1,7 @@
+export BASH_ENV=/etc/profile.d/modules.sh
+     Input file > &BANDS: file not found
+     Input file >   prefix = 'MoTe2': file not found
+     Input file >   outdir = './outdir': file not found
+     Input file >   filband = 'MoTe2.bands.dat': file not found
+     Input file > /: file not found
+     Input file >      Input file > Fatal error reading file name 
