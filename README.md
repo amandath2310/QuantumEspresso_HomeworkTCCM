@@ -11,3 +11,5 @@ Note:
 - "MoTe2_bands" for band calculation
 - "MoTe2_dos" for dos calculation
 - "bands" and "dos" for final calculation of band and dos.
+
+Amanda H. Tzorin
