@@ -1,0 +1,8 @@
+&DOS
+  prefix = 'MoTe2'
+  outdir = './outdir'
+  fildos = 'MoTe2.dos.dat'
+  ngauss = 0
+  degauss = 0.02
+  deltaE = 0.005
+/

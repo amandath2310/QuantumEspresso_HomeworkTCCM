@@ -1,0 +1,37 @@
+&CONTROL
+  calculation = 'scf'
+  etot_conv_thr =   3.0000000000d-05
+  forc_conv_thr =   1.0000000000d-04
+  outdir = './'
+  prefix = 'MoTe2'
+  pseudo_dir = './'
+  verbosity = 'high'
+/
+&SYSTEM
+  degauss =   1.4699723600d-02
+  ecutrho =   320
+  ecutwfc =   80
+  ibrav = 4
+  a = 3.223713577
+  c = 23.01488999
+  nat = 3
+  ntyp = 2
+  occupations = 'smearing'
+  smearing = 'cold'
+/
+&ELECTRONS
+  conv_thr =   6.0000000000d-10
+  electron_maxstep = 200
+  mixing_beta =   0.7
+/
+ATOMIC_SPECIES
+Mo     95.96 Mo.upf
+Te     127.6 Te.upf
+
+ATOMIC_POSITIONS crystal
+Te            0.3333333300        0.6666666700        0.9067098320
+Te            0.3333333300        0.6666666700        0.0812309757
+Mo            0.6666666700        0.3333333300        0.1636006823
+
+K_POINTS automatic
+24 24 1 0 0 0

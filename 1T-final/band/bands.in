@@ -1,0 +1,6 @@
+&BANDS
+  prefix = 'MoTe2'
+  outdir = './outdir'
+  filband = 'MoTe2.bands.dat'
+/
+
